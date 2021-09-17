@@ -1,2 +1,9 @@
-Este proyecto tiene como fin hacer un programa de ventas que permite controlar las ventas fisicas
-y virtuales de una empresa de manufactura y hacerles el correspondiente seguimiento 
+SaleSoft una aplicación software que permite controlar las ventas fisicas y virtuales
+de una empresa de manufactura y hacerles el correspondiente seguimiento
+
+Cuenta con 5 modulos:
+1. Administrador de ventas
+2. Gestion del estado de la venta
+3. Gestion de vendedores
+4. Gestion de ingreso al sistema de información
+5. Gestion de usuarios y roles
