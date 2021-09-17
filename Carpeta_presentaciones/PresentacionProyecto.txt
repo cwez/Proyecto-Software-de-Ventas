@@ -1,0 +1,2 @@
+Este proyecto tiene como fin hacer un programa de ventas que permite controlar las ventas fisicas
+y virtuales de una empresa de manufactura y hacerles el correspondiente seguimiento 
