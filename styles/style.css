@@ -1,0 +1,13 @@
+body{
+    background-color: #112031;   
+}
+div.Login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.textoIS{ 
+    font: 125% Calibri ; color: white;
+    justify-content: center;
+    
+}
