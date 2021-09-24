@@ -21,20 +21,20 @@ figure.logo{
 }
 #botones{
     width: 400px;
-    margin: 0px auto;
-    padding: 8px;
+    margin: 10px auto;
+    padding: 4px;
 }
 #idadministracion{
     background-color:#D4ECDD;
-    height: 200px;
-    width: 420px;
-    margin: -100px auto;
-    font-size: 60px
+    height: 150px;
+    width: 300px;
+    margin: 0px 100px;
+    font-size: 25px
 }
 #idregistro{
     background-color:#D4ECDD;
-    height: 200px;
-    width: 420px;
-    margin: 100px auto;
-    font-size: 60px
+    height: 150px;
+    width: 300px;
+    margin: 0px 100px;
+    font-size: 25px
 }
