@@ -7,7 +7,7 @@ body.fondo{
     background-color:#345B63;
 }
 header, nav, section, article, footer{
-	display: block;
+	display:flex;
 }
 header{
 	height: 141px;
@@ -19,22 +19,45 @@ figure.logo{
 	left: 1px;
 	float: left;
 }
-#botones{
-    width: 400px;
-    margin: 10px auto;
+.botones{
+    /*background-color: tomato;*/
+    margin: auto auto;
+    width: 680px;
     padding: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    column-span: inherit;
 }
 #idadministracion{
     background-color:#D4ECDD;
-    height: 150px;
-    width: 300px;
-    margin: 0px 100px;
-    font-size: 25px
+    transition: 2s;
+    height: 180px;
+    width: 350px;
+    font-size: 30px
 }
 #idregistro{
     background-color:#D4ECDD;
-    height: 150px;
-    width: 300px;
-    margin: 0px 100px;
-    font-size: 25px
+    transition: 2s;
+    height: 180px;
+    width: 350px;
+    font-size: 30px
+}
+#idadministracion:hover{
+    background-color: #1c3236;
+    transform:scale(1.2,1.2) ;
+    backdrop-filter:blur(5px);
+    -moz-transform: scale(1.2,1.2) ;
+    -o-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2) ;
+    -webkit-transform: scale(1.2,1.2);
+}
+#idregistro:hover{
+    background-color: #1c3236;
+    backdrop-filter:blur(2px);
+    transform:scale(1.2,1.2) ;
+    -moz-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2) ;
+    -ms-transform: scale(1.2,1.2) ;
+    -webkit-transform: scale(1.2,1.2);   
 }
