@@ -25,9 +25,9 @@ h1 {
         width: 650px;
         height: 120px;
         font-style:normal;
-        font-family:"Verdana";
+        font-family:Verdana;
         transform: scale();
-        transition: 1s;
+        
         
     }
 
@@ -36,9 +36,9 @@ h1 {
         width: 650px;
         height: 120px;
         font-style:normal;
-        font-family: 'Verdana';
+        font-family:Verdana;
         transform: scale();
-        transition: 1s;
+        
         
     }
 
