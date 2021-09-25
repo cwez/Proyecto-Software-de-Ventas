@@ -1,0 +1,57 @@
+h1 {
+    font-size:70px; 
+    color: rgb(0, 0, 71); 
+    text-align: center; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+.botones {
+        
+        text-align: center;
+        text-size-adjust: auto;
+        display: flex;
+        flex-direction: row;
+        width: 650px;
+        height: 120px;        
+        color: rgb(0, 0, 0);
+        padding: 40px;
+        border-radius: 30px;
+        margin: auto;
+        
+        }
+
+#boton1{
+        margin: 0px 40px;
+        width: 650px;
+        height: 120px;
+        font-style:normal;
+        font-family:"Verdana";
+        transform: scale();
+        transition: 1s;
+        
+    }
+
+#boton2{
+        margin: 0px 40px;
+        width: 650px;
+        height: 120px;
+        font-style:normal;
+        font-family: 'Verdana';
+        transform: scale();
+        transition: 1s;
+        
+    }
+
+#boton1:hover {
+    background-color: rgb(140, 140, 140);
+    transition: 2s;
+    transform: scale(1.0, 1.0);
+    -webkit-transform: scale(1.1, 1.1);
+}
+#boton2:hover {
+    background-color: rgb(140, 140, 140);
+    transition: 2s;
+    transform: scale(1, 1);
+    -webkit-transform: scale(1.1, 1.1);
+}
+    
