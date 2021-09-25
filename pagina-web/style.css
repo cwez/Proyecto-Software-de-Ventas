@@ -20,17 +20,17 @@ figure.logo{
 	float: left;
 }
 .botones{
-    /*background-color: tomato;*/
     margin: auto auto;
     width: 680px;
     padding: 4px;
     display: flex;
     flex-direction: column;
     align-items:center;
-    column-span: inherit;
+    text-align: center;
 }
 #idadministracion{
     background-color:#D4ECDD;
+    border-radius: 30px;
     transition: 2s;
     height: 180px;
     width: 350px;
@@ -38,23 +38,22 @@ figure.logo{
 }
 #idregistro{
     background-color:#D4ECDD;
+    border-radius: 30px;
     transition: 2s;
     height: 180px;
     width: 350px;
     font-size: 30px
 }
 #idadministracion:hover{
-    background-color: #1c3236;
+    background-color: #9baca2;
     transform:scale(1.2,1.2) ;
-    backdrop-filter:blur(5px);
     -moz-transform: scale(1.2,1.2) ;
     -o-transform: scale(1.2,1.2);
     -ms-transform: scale(1.2,1.2) ;
     -webkit-transform: scale(1.2,1.2);
 }
 #idregistro:hover{
-    background-color: #1c3236;
-    backdrop-filter:blur(2px);
+    background-color: #9baca2;
     transform:scale(1.2,1.2) ;
     -moz-transform: scale(1.2,1.2);
     -o-transform: scale(1.2,1.2) ;
