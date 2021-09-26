@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gestor de Usuarios y Roles</title>
+</head>
+<body>
+    <div align="center"><img src="logo.png" alt="Logo de Abmodel" width="120px" height="120px"></div>
+  <section class="form-gestor">
+      <h4>Gestor de Usuarios y Roles</h4>
+      <input class="controls" type="text" name="Nombres" id="Nombres" placeholder="Ingrese sus Nombres">
+      <input class="controls" type="text" name="Apellidos" id="Apellidos" placeholder="Ingrese sus Apellidos">
+      <form>
+          Seleccione un Rol:
+          <select>
+              <option disabled selected="">Opciones</option>
+              <option>Vendedor</option>
+              <option>Administrador</option>
+              <option>Ejecutivo</option>
+              <option>Operario</option>
+              <option>Director</option>
+              <option>Gerente Comercial</option>
+          </select>
+      </form>
+      <input class="controls" type="text" name="Identificador unico del usuario" id="Identificador unico de usuario" placeholder="Aqui se mostrara su Identificador"> <!-- realmente esto no debe ser un input, debo conseguir la etiqueta correcta, simplemente debe mostrar el identificador con sus reglas todo mediante backend-->
+      <input class="botons" type="submit" value="Agregar">
+      <input class="botons" type="submit" value="Modificar">
+      <input class="botons" type="submit" value="Eliminar">
+  </section>  
+</body>
+</html>
