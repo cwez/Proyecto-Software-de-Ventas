@@ -45,7 +45,13 @@ figure.logo{
     font-size: 30px
 }
 #idadministracion:hover{
-    background-color: #9baca2;
+    text-shadow: 1px 1px 2px #122124;
+    background-image: -webkit-linear-gradient(top, #D4ECDD, #345B63);
+    background-image: -moz-linear-gradient(top, #D4ECDD, #345B63);
+    background-image: -ms-linear-gradient(top, #D4ECDD, #345B63);
+    background-image: -o-linear-gradient(top, #D4ECDD, #345B63);
+    background-image: linear-gradient(to bottom,#D4ECDD, #345B63);
+    animation-delay: 5s;
     transform:scale(1.2,1.2) ;
     -moz-transform: scale(1.2,1.2) ;
     -o-transform: scale(1.2,1.2);
@@ -53,7 +59,12 @@ figure.logo{
     -webkit-transform: scale(1.2,1.2);
 }
 #idregistro:hover{
-    background-color: #9baca2;
+    text-shadow: 1px 1px 2px #122124;
+    background-image: -webkit-linear-gradient(top, #D4ECDD, #345B63);
+    background-image: -moz-linear-gradient(top, #D4ECDD, #345B63);
+    background-image: -ms-linear-gradient(top, #D4ECDD, #345B63);
+    background-image: -o-linear-gradient(top, #D4ECDD, #345B63);
+    background-image: linear-gradient(to bottom,#D4ECDD, #345B63);
     transform:scale(1.2,1.2) ;
     -moz-transform: scale(1.2,1.2);
     -o-transform: scale(1.2,1.2) ;
