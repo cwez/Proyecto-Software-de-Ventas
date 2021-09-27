@@ -4,3 +4,14 @@ h1 {
     text-align: center; 
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
+
+.datos{
+    font-size:15px; 
+    color: rgb(0, 0, 71); 
+    text-align: center; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+map{
+    background-color: aqua;
+}
