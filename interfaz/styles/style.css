@@ -72,3 +72,33 @@ input:focus + label{
 
     width: 5cm;
 }
+
+.Acceder{
+    display: contents;
+}
+
+.Google{
+    display:contents;
+}
+
+
+#Acceder{
+    color: white;
+    background: #112031;    
+    font: bold 120% sans-serif;    
+    margin-left: 105px;
+    margin-top: 10px;
+    border: none;
+    
+}
+#Google{
+    color: #112031;
+    background-color: white;
+    font: bold 120% sans-serif;
+    margin-right: 85px;
+    border: none;
+    margin-top: 10px;
+}
+#logoGoogle{
+    width: 15px;
+}
