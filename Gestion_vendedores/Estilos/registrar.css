@@ -2,13 +2,63 @@ h1 {
     font-size:35px; 
     color: rgb(0, 0, 71); 
     text-align: center; 
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Tahoma';
     }
 
 .datos{
-    font-size:15px; 
+    font-size:25px; 
     color: rgb(0, 0, 71); 
     text-align: center; 
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Tahoma';
 }
+.formulario{
+
+    background-color: lightgray;
+    display: block;
+    text-align:center;
+    width: 1000px;
+    margin-left:  40px;
+    margin-right: 40px;
+    border-radius: 15px;
+}
+
+input{
+    font-size: 20px;
+}
+
+label{
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Tahoma';
+}
+
+#boton_enviar{
+        margin: 0px 30px;
+        width: 140px;
+        height: 60px;
+        font-size: 20px;
+        font-style:Large;
+        font-family:Verdana;
+        transform: scale();
+        border-radius: 15px;
+        background-image: -webkit-linear-gradient(top, #ffffff, #00e1ff);
+        background-image: -moz-linear-gradient(top, #ffffff, #00e1ff);
+        background-image: -ms-linear-gradient(top, #ffffff, #00e1ff);
+        background-image: -o-linear-gradient(top, #ffffff, #00e1ff);
+        background-image: linear-gradient(to bottom,#ffffff, #00e1ff);
+}
+
+#boton_enviar:hover {
+    background-color: rgb(140, 140, 140);
+    transition: 2s;
+    transform: scale(1.0, 1.0);
+    -webkit-transform: scale(1.1, 1.1);
+    background-image: -webkit-linear-gradient(top, #00e1ff, #ffffff);
+    background-image: -moz-linear-gradient(top, #00e1ff, #ffffff);
+    background-image: -ms-linear-gradient(top, #00e1ff, #ffffff);
+    background-image: -o-linear-gradient(top, #00e1ff, #ffffff);
+    background-image: linear-gradient(to bottom,#00e1ff, #ffffff);
+}
+
+
 

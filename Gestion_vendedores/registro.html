@@ -17,6 +17,38 @@
         <p><h2>Información Personal</p></h2>
     </div>
 
+    <div class="formulario" Style= "padding:40px; width: auto;" ><br><br>
+        
+    <form action=""> <!-- aqui falta el archivo php destino para almacenar los datos del formulario -->
+        <label id="etiqueta_nombre"><b>Nombres: </b></label>
+        <input type="text" id="cuadro_nombre" size="35px" style= "border-radius: 8px;"><br><br>
+        <label id="etiqueta_apellidos"><b>Apellidos: </b></label>
+        <input type="text" id="cuadro_apellido" size="35px"style= "border-radius: 8px;"><br><br>
+        <label id="etiqueta_doc"><b>Género: </b></label>
+        <input id="radio_fem" type="radio" name="genero" value="Mujer">
+        <label for="radio_fem">Mujer</label>
+        <input id="radio_hom" type="radio" name="genero" value="Hombre">
+        <label for="radio_hom">Hombre</label>
+        <input id="radio_otro" type="radio" name="genero" value="Otro">
+        <label for="radio_otro">Otro</label><br><br>
+        <label for="documentos"><b>Documento de indentidad: </b></label>
+        <select name="docs" id="docs">
+        <option value="Cedula">C.C.</option>
+        <option value="tarjeta de identidad">T.I.</option>
+        <option value="Pasaporte">Pasaporte</option>
+        <option value="Documento extranjero">D.E.</option>
+        <input type="text" size="35px"style= "border-radius: 8px;"><br><br>
+        <label id="fecha"><b>Fecha de Nacimiento: </b></label>
+        <input type="date"><br><br>
+        <label id="correo"><b>Correo electrónico: </b></label>
+        <input type="email" size="35px"style= "border-radius: 8px;"><br><br>  
+        <label id="telefono"><b>Teléfono: </b> </label>
+        <input type="tel" size="35px"style= "border-radius: 8px;"><br><br>
+        <label for="direccion"><b>Dirección de Residencia: </b> </label>
+        <input type="text" size="35px"style= "border-radius: 8px;"><br><br>
+        <br><br><input id="boton_enviar" type="submit" value="Registrar"><br><br>
+    </form>
+    </div>
 
 </body>
 </html>
