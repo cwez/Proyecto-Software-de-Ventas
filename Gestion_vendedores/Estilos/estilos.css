@@ -4,6 +4,7 @@
     color: rgb(0, 0, 71); 
     text-align: center; 
     font-family:"Arial";
+    text-shadow: 3px 3px 4px rgb(87, 83, 83);
     }
 
 .botones {
@@ -71,7 +72,7 @@
 
 #boton1:hover {
     background-color: rgb(140, 140, 140);
-    transition: 2s;
+    transition: 0.5s;
     transform: scale(1.0, 1.0);
     -webkit-transform: scale(1.1, 1.1);
     background-image: -webkit-linear-gradient(top, #808080, #ffffff);
@@ -83,7 +84,7 @@
 
 #boton2:hover {
     background-color: rgb(140, 140, 140);
-    transition: 2s;
+    transition: 0.5s;
     transform: scale(1, 1);
     -webkit-transform: scale(1.1, 1.1);
     background-image: -webkit-linear-gradient(top, #808080, #ffffff);
@@ -95,7 +96,7 @@
 
 #boton3:hover {
     background-color: rgb(140, 140, 140);
-    transition: 2s;
+    transition: 0.5s;
     transform: scale(1, 1);
     -webkit-transform: scale(1.1, 1.1);
     background-image: -webkit-linear-gradient(top, #808080, #ffffff);
