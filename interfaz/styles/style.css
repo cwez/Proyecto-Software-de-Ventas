@@ -87,8 +87,9 @@ input:focus + label{
     background: #112031;    
     font: bold 120% sans-serif;    
     margin-left: 105px;
-    margin-top: 10px;
-    border: none;
+    margin-top: 20px;
+    border-radius: 20px;
+    border-color: white;
     
 }
 #Google{
@@ -97,8 +98,17 @@ input:focus + label{
     font: bold 120% sans-serif;
     margin-right: 85px;
     border: none;
-    margin-top: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
 }
 #logoGoogle{
     width: 15px;
+}
+#olvide{
+    margin-left: 380px;
+    color: white;
+    background: #112031;    
+    font: 80% sans-serif;
+    border: none;
+    text-decoration: underline;
 }
