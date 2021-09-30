@@ -1,10 +1,10 @@
 body.fondo{
+    background-color: rgb(93, 119, 134);
 	font-family: Arial, Helvetica,sans-seriff;
 	font-size: 14px;
 	margin:0 auto;
 	position: absolute;
 	width: 1280px;
-    background-color:#345B63;
 }
 header, nav, section, article, footer{
 	display:flex;
@@ -50,7 +50,7 @@ figure.logo{
     background-image: -moz-linear-gradient(top, #D4ECDD, #345B63);
     background-image: -ms-linear-gradient(top, #D4ECDD, #345B63);
     background-image: -o-linear-gradient(top, #D4ECDD, #345B63);
-    background-image: linear-gradient(to bottom,#D4ECDD, #345B63);
+    background-image: linear-gradient(top bottom,#D4ECDD, #345B63);
     animation-delay: 5s;
     transform:scale(1.2,1.2) ;
     -moz-transform: scale(1.2,1.2) ;
@@ -64,7 +64,7 @@ figure.logo{
     background-image: -moz-linear-gradient(top, #D4ECDD, #345B63);
     background-image: -ms-linear-gradient(top, #D4ECDD, #345B63);
     background-image: -o-linear-gradient(top, #D4ECDD, #345B63);
-    background-image: linear-gradient(to bottom,#D4ECDD, #345B63);
+    background-image: linear-gradient(top bottom,#D4ECDD, #345B63);
     transform:scale(1.2,1.2) ;
     -moz-transform: scale(1.2,1.2);
     -o-transform: scale(1.2,1.2) ;
@@ -81,8 +81,11 @@ figure.logo{
     justify-content:center;
 }
 .registro{
+    border-radius: 5px;
+    background-color:#c0c0c0;
+    box-shadow: 1px 1px 5px #122124;
     margin: auto auto;
-    width: 1100px;
+    width: 900px;
     padding: 4px;
     display: flex;
     flex-direction: column;
@@ -90,18 +93,33 @@ figure.logo{
     justify-content: center;
     font-size: 20px
 }
+#sendButton{
+    font-size: 50px;
+    margin: auto auto;
+    height: 40px;
+    width: 500px;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    
+}
+#sendButton:hover{
+    transform:scale(1.2,1.2) ;
+    -moz-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2) ;
+    -ms-transform: scale(1.2,1.2) ;
+    -webkit-transform: scale(1.2,1.2);   
+}
 label{
     border-radius: 5px;
-    background-image: -webkit-linear-gradient(top, #345B63, #da681d);
-    background-image: -moz-linear-gradient(top, #345B63, #da681d);
-    background-image: -ms-linear-gradient(top, #345B63, #da681d);
-    background-image: -o-linear-gradient(top, #345B63, #da681d);
-    background-image: linear-gradient(top bottom,#345B63, #da681d);
     margin: auto 0px;
     font-size: 30px;
-    color: rgb(197, 197, 197);
+    color: rgb(0, 0, 0);
 }
 input{
     font-size: 30px;
     border-radius:5px;
 }
+
