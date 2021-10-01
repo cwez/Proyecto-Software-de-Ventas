@@ -1,11 +1,3 @@
-body{
-    
-    background-image: -webkit-linear-gradient(top, #e8f4fa, #00b7ff);
-    background-image: -moz-linear-gradient(top, #e8f4fa, #00b7ff);
-    background-image: -ms-linear-gradient(top, #e8f4fa, #00b7ff);
-    background-image: -o-linear-gradient(top, #e8f4fa, #00b7ff);
-    background-image: linear-gradient(to bottom,#e8f4fa, #00b7ff);
-}
 
 #Titulo {
     font-size:70px; 

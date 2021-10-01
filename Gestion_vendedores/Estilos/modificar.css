@@ -5,3 +5,33 @@ h1 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: 3px 3px 4px rgb(87, 83, 83);
     }
+
+.formulario{
+        text-align: center;
+        background-color: lightgray;
+        display: block;
+        text-align:center;
+        max-width: 800px;
+        margin: auto;
+        margin-left:  0px 40px;
+        margin-right: 0px 40px;
+        border-radius: 15px;
+    }
+    
+#interno{
+        
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: left;
+        margin: 0px auto;
+     }
+input{
+    font-size: 20px;
+    }
+
+label{
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Tahoma';
+    }
