@@ -1,3 +1,11 @@
+body{
+    
+    background-image: -webkit-linear-gradient(top, #e8f4fa, #00b7ff);
+    background-image: -moz-linear-gradient(top, #e8f4fa, #00b7ff);
+    background-image: -ms-linear-gradient(top, #e8f4fa, #00b7ff);
+    background-image: -o-linear-gradient(top, #e8f4fa, #00b7ff);
+    background-image: linear-gradient(to bottom,#e8f4fa, #00b7ff);
+}
 h1 {
     font-size:35px; 
     color: rgb(0, 0, 71); 
@@ -18,8 +26,8 @@ h1 {
     background-color: lightgray;
     display: block;
     text-align:center;
-    width: 1000px;
-    margin: 0px auto;
+    max-width: 800px;
+    margin: auto;
     margin-left:  0px 40px;
     margin-right: 0px 40px;
     border-radius: 15px;
