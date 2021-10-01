@@ -1,0 +1,114 @@
+body{
+    background-color: #112031;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 120% sans-serif;
+}
+.textoIS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+#IS{
+    color: white;
+    text-align: center;
+    font-size: 150%;
+}
+.entradaTextoCedula{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.8cm;
+}
+.entradaTextoContraseña{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.8cm;
+}
+input{
+    background: none;
+    border: 2px solid white;
+    font-size: 1.7em;
+    border-radius: 10px;
+    padding: 0 .5em;
+    height: 50px;
+    width: 500px;
+    outline: none;
+    color: white;
+}
+input + label{
+    transition: all .3s ease;
+    position: absolute;
+    top: .8em;
+    left: .5em;
+    color: white;
+    background: #112031;
+    
+}
+input:focus + label{
+    transition: all .3s ease;
+    top: -.2em;
+    left: .7em;
+    font-size: 1em;
+    color: white;
+    z-index: 100;
+    background: #112031;
+    border: none;
+    text-align: center;
+}
+.LogoSS{
+    display: flex;
+    justify-content: center;
+
+}
+#logo{
+
+    width: 5cm;
+}
+
+.Acceder{
+    display: contents;
+}
+
+.Google{
+    display:contents;
+}
+
+
+#Acceder{
+    color: white;
+    background: #112031;    
+    font: bold 120% sans-serif;    
+    margin-left: 105px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border-color: white;
+    
+}
+#Google{
+    color: #112031;
+    background-color: white;
+    font: bold 120% sans-serif;
+    margin-right: 85px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+#logoGoogle{
+    width: 15px;
+}
+#olvide{
+    margin-left: 380px;
+    color: white;
+    background: #112031;    
+    font: 80% sans-serif;
+    border: none;
+    text-decoration: underline;
+}
