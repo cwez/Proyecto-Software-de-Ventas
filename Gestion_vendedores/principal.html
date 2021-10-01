@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="Estilos\estilos.css" rel="stylesheet" type="text/css" >
+    <link href="Estilos\estilos.css" rel="stylesheet" type="text/css" ><!-- Link que conecta el HTML con el CSS -->
+    <script type="text/javascript" src="JavaScript/registrar.js"></script><!-- link que conecta el HTML con el JS -->
+    <link rel="shortcut icon" href="logo.png" width="16px" height="16px">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,15 +18,26 @@
     
     <div class="botones" >
     
-        <form method="get" action="./registro.html" target="_self">
-        <button type="submit" id="boton1"> <center><b>Registrar información nuevo vendedor</b></center></a></button>
-        </form>
-        <form method="get" action="./modificar.html" target="_self">
-        <button type="submit" id="boton2"><center> <b>Modificar información personal de vendedores</b></center></a></button>
-        </form>
-        <form method="get" action="./consultar.html" target="_self">
-        <button type="submit" id="boton3"> <center><b>Consultar información de vendedores</b></center></a></button>
-        </form>
+        <div id="div_med">
+        <div class="boton_primero">
+            <form method="get" action="./registro.html" target="_self">
+            <button type="submit" id="boton1"> <center><b>Registrar información nuevo vendedor</b></center> </a></button>
+            </form>
+        </div> 
+
+        <div class="boton_segundo">
+            <form method="get" action="./modificar.html" target="_self">
+            <button type="submit" id="boton2"><center> <b>Modificar información personal de vendedores</b></center></a></button>
+            </form>
+        </div>
+
+        <div class="boton_tercero">
+            <form method="get" action="./consultar.html" target="_self">
+            <button type="submit" id="boton3"> <center><b>Consultar información de vendedores</b></center></a></button>
+            </form>
+        </div>
+        </div>
+
 
     
     </div>

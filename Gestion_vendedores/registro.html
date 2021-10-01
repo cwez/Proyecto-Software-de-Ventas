@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="Estilos\registrar.css" rel="stylesheet" type="text/css" >
+    <link href="Estilos\registrar.css" rel="stylesheet" type="text/css" ><!-- Link que conecta el HTML con el CSS -->
+    <script type="text/javascript" src="JavaScript/registrar.js"></script><!-- link que conecta el HTML con el JS -->
+    <link rel="shortcut icon" href="logo.png" width="16px" height="16px">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro Nueva Información</title>
+    
 </head>
 <body>
     <a href="principal.html">
     <div align="center"><img src="logo.png" alt="Logo de Abmodel" width="120px" height="120px"></div>
     </a>
     <p><h1> REGISTRAR INFORMACIÓN DE NUEVO VENDEDOR </h1></p>
-    <div></div>
+    
     <div class="datos" 
         <p><h2>Información Personal</p></h2>
     </div>
@@ -20,9 +23,10 @@
     <div class="formulario" Style= "padding:40px; width: auto;" ><br><br>
         
     <form action=""> <!-- aqui falta el archivo php destino para almacenar los datos del formulario -->
-        <label id="etiqueta_nombre"><b>Nombres: </b></label>
+        <div id="interno">
+        <label id="etiqueta_nombre"><b>Nombres: </b></label><br>
         <input type="text" id="cuadro_nombre" size="35px" style= "border-radius: 8px;"><br><br>
-        <label id="etiqueta_apellidos"><b>Apellidos: </b></label>
+        <label id="etiqueta_apellidos"><b>Apellidos: </b></label><br>
         <input type="text" id="cuadro_apellido" size="35px"style= "border-radius: 8px;"><br><br>
         <label id="etiqueta_doc"><b>Género: </b></label>
         <input id="radio_fem" type="radio" name="genero" value="Mujer">
@@ -31,19 +35,31 @@
         <label for="radio_hom">Hombre</label>
         <input id="radio_otro" type="radio" name="genero" value="Otro">
         <label for="radio_otro">Otro</label><br><br>
-        <label for="documentos"><b>Documento de indentidad: </b></label>
+        <label for="documentos"><b>Documento de identidad: </b></label>
+        <select id="docs" name="docs1">
+            <option value="Cedula">C.C.</option>
+            <option value="Tarjeta de identidad">T.I.</option>
+            <option value="Pasaporte">Pasaporte</option>
+            <option value="Documento Extranjero">D.E.</option>
+          </select><br>
         <input type="text" size="35px"style= "border-radius: 8px;"><br><br>
         <label id="fecha"><b>Fecha de Nacimiento: </b></label>
         <input type="date"><br><br>
-        <label id="correo"><b>Correo electrónico: </b></label>
+        <label id="correo"><b>Correo electrónico: </b></label><br>
         <input type="email" size="35px"style= "border-radius: 8px;"><br><br>  
-        <label id="telefono"><b>Teléfono: </b> </label>
+        <label id="telefono"><b>Teléfono: </b> </label><br>
         <input type="tel" size="35px"style= "border-radius: 8px;"><br><br>
-        <label for="direccion"><b>Dirección de Residencia: </b> </label>
+        <label id="direccion"><b>Dirección de Residencia: </b> </label> <br>
         <input type="text" size="35px"style= "border-radius: 8px;"><br><br>
-        <br><br><input id="boton_enviar" type="submit" value="Registrar"><br><br>
+        <div id="comentarios"><label><b>Comentarios: </b></label><br>
+        <textarea rows="9" cols="60" style="border-radius: 8px;"></textarea><br><br>
+        </div>
+    </div>
+        <br><br><input id="boton_enviar" type="submit" value="Registrar" onclick="funcion_enviar()"><br><br>
     </form>
     </div>
 
 </body>
+
+
 </html>
