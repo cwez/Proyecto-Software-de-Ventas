@@ -6,6 +6,12 @@ h1 {
     text-shadow: 3px 3px 4px rgb(87, 83, 83);
     }
 
+    h2{
+        font-family: 'tahoma';
+        text-align: left;
+        
+    }
+
 .formulario{
         text-align: center;
         background-color: lightgray;
