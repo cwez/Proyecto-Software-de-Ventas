@@ -2,7 +2,7 @@
   background-color: rgb(93, 119, 134);
 font-family: Arial, Helvetica,sans-seriff;
 font-size: 14px;
-margin:0 auto;
+margin:auto auto;
 position: absolute;
 height: 657px;
 width: 1366px;
@@ -73,25 +73,27 @@ float: left;
   -webkit-transform: scale(1.2,1.2);   
 }
 .titulo{
-  margin: 0px auto;
-  font-size: 40px;
+  margin: -500px 150px;
+  font-size: 25px;
   text-shadow: 1px 1px 2px rgb(204, 82, 0);
   width: 620px;
   display: flex;
   flex-direction: column;
   justify-content:center;
+  text-align: center;
 }
 .registro{
+  margin: -310px -45px;
+  align-content: center;
+  align-items: center;
   border-radius: 5px;
+  margin-top: 10px;
   background-color:#c0c0c0;
   box-shadow: 1px 1px 5px #122124;
-  margin: auto auto;
-  width: 900px;
-  padding: 4px;
+  width: 720px;
+  height: 626px;
   display: flex;
-  flex-direction: column;
-  align-items:center;
-  justify-content: center;
+  flex-direction:column;
   font-size: 20px
 }
 #sendButton{
@@ -126,7 +128,7 @@ input{
 }
 .titulo_admin{
   margin: 0px auto;
-  font-size: 35px;
+  font-size: 20px;
   text-shadow: 1px 1px 2px rgb(204, 82, 0);
   width: 1000px;
   display: flex;
@@ -147,7 +149,7 @@ section.consulta{
   font-size: 20px
 }
 aside.lateral{
-  margin: -120px -50px;
+  margin: -150px 10px;
   float:right;
   display: flex;
   flex-direction: column;
