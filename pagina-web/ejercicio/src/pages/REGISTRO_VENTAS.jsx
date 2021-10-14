@@ -1,5 +1,6 @@
 import 'src/styles/styles.css';
 import { Link } from 'react-router-dom';
+import Registro from 'src/components/Registro';
 
 function REGISTRO_VENTA() {
     return(
@@ -13,25 +14,15 @@ function REGISTRO_VENTA() {
                 <div className ='titulo'>
                     <p><h1>REGISTRO</h1></p>
                     <form className = 'registro'action ="">
-                        <label>Valor total de la venta:</label>
-                        <input type="number"/>
+                        <Registro texto = 'Valor total de la venta:' tipo = 'number'/>
                         <br/>
+                        <Registro texto = 'Descripción de la venta:' tipo = 'text'/>
                         <br/>
-                        <label>Descripción de la venta:</label>
-                        <input type="text"/>
+                        <Registro texto = 'Fecha inicial' tipo = 'datetime-local'/>
                         <br/>
-                        <br/>
-                        <label>Fecha inicial :</label>
-                        <input type="datetime-local"/>
-                        <br/>
-                        <br/>
-                        <label>Fecha futura pago :</label>
-                        <input type="datetime-local"/>
+                        <Registro texto = 'Fecha futura pago :' tipo = 'datetime-local'/>
                         <br />
-                        <br />
-                        <label>Encargado :</label>
-                        <input type="text"/>
-                        <br/>
+                        <Registro texto = 'Encargado :' tipo = 'text'/>
                         <br/>
                         <div id = "sendButton">
                         <input type="submit" value="Enviar"/>
