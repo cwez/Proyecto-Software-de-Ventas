@@ -73,7 +73,7 @@ float: left;
   -webkit-transform: scale(1.2,1.2);   
 }
 .titulo{
-  margin: -500px 150px;
+  margin: -500px 190px;
   font-size: 25px;
   text-shadow: 1px 1px 2px rgb(204, 82, 0);
   width: 620px;
@@ -96,19 +96,21 @@ float: left;
   flex-direction:column;
   font-size: 20px
 }
-#sendButton{
-  font-size: 50px;
-  margin: auto auto;
+  
+  
+button{
+  font-size: 45px;
+  margin-bottom: 10px;
   height: 40px;
   width: 500px;
   padding: 4px;
   display: flex;
   flex-direction: column;
-  text-align: center;
   justify-content: center;
-  
+  align-items: center;
+  box-shadow: 1px 1px 5px #122124;
 }
-#sendButton:hover{
+button:hover{
   transform:scale(1.2,1.2) ;
   -moz-transform: scale(1.2,1.2);
   -o-transform: scale(1.2,1.2) ;

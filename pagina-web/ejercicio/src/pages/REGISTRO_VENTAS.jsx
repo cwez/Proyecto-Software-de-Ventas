@@ -60,8 +60,8 @@ useEffect(() => {
                         <br />
                         <Registro onChange ={cambioDeEncargado}texto = 'Encargado :' tipo = 'text'/>
                         <br/>
-                        <div id = "sendButton">
-                        <input onClick={enviarDatosAlBackend} type="submit" value="Enviar"/>
+                        <div className = "sendButton">
+                        <button onClick={enviarDatosAlBackend}>Enviar</button>
                         </div>
                     </form>
                 </div>
