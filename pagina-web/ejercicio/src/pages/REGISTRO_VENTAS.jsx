@@ -1,8 +1,44 @@
 import 'src/styles/styles.css';
+import React,{useEffect, useState} from 'react';
 import { Link } from 'react-router-dom';
 import Registro from 'src/components/Registro';
 
-function REGISTRO_VENTA() {
+const REGISTRO_VENTA = () => {
+
+   const [valor,setValor] = useState(0)
+   const [descripcion,setDescripcion] = useState('')
+   const [fechaI,setFechaI] = useState('00/00/0000')
+   const [fechaF,setFechaF] = useState('00/00/0000')
+   const [encargado,setEncargado] = useState('')
+
+useEffect(() => {
+    console.log('cambios:')
+},[valor, descripcion, fechaI, fechaF,encargado]);
+
+    const enviarDatosAlBackend =() =>{
+        console.log(
+            'Valor :',valor,
+            'Producto: ', descripcion,
+            'Fecha Inicial: ', fechaI,
+            'Fecha Proxima: ', fechaF,
+            'Encargado: ',encargado
+        )
+    }
+    const cambioDeValor =(e) =>{
+        setValor(e.target.value)
+    }
+    const cambioDeDescripcion =(e) =>{
+        setDescripcion(e.target.value)
+    }
+    const cambioDeFechaI =(e) =>{
+        setFechaI(e.target.value)
+    }
+    const cambioDeFechaF =(e) =>{
+        setFechaF(e.target.value)
+    }
+    const cambioDeEncargado =(e) =>{
+        setEncargado(e.target.value)
+    }
     return(
         <div className="App">
             <header>
@@ -14,18 +50,18 @@ function REGISTRO_VENTA() {
                 <div className ='titulo'>
                     <p><h1>REGISTRO</h1></p>
                     <form className = 'registro'action ="">
-                        <Registro texto = 'Valor total de la venta:' tipo = 'number'/>
+                        <Registro onChange ={cambioDeValor}texto = 'Valor total de la venta:' tipo = 'number'/>
                         <br/>
-                        <Registro texto = 'Descripción de la venta:' tipo = 'text'/>
+                        <Registro onChange ={cambioDeDescripcion}texto = 'Descripción de la venta:' tipo = 'text'/>
                         <br/>
-                        <Registro texto = 'Fecha inicial' tipo = 'datetime-local'/>
+                        <Registro onChange ={cambioDeFechaI}texto = 'Fecha inicial' tipo = 'datetime-local'/>
                         <br/>
-                        <Registro texto = 'Fecha futura pago :' tipo = 'datetime-local'/>
+                        <Registro onChange ={cambioDeFechaF}texto = 'Fecha futura pago :' tipo = 'datetime-local'/>
                         <br />
-                        <Registro texto = 'Encargado :' tipo = 'text'/>
+                        <Registro onChange ={cambioDeEncargado}texto = 'Encargado :' tipo = 'text'/>
                         <br/>
                         <div id = "sendButton">
-                        <input type="submit" value="Enviar"/>
+                        <input onClick={enviarDatosAlBackend} type="submit" value="Enviar"/>
                         </div>
                     </form>
                 </div>
