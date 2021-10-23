@@ -1,27 +1,29 @@
-import Botones from "../Components/Botones";
+import Botones from '../Components/Botones';
+import Header from '../Components/Header';
+import {Link} from 'react-router-dom';
+import estilos from '../Estilos/estilos.css';
+
 
 function PaginaPrincipal(){
     return (
-        <div className="App" >
+        <div>
     
-    <div align="center"><image src="logo.png" alt="Logo de Abmodel" width="120px" height="120px"/></div>
+            <Header>
+                <div>MÓDULO GESTIÓN DE VENDEDORES</div>
+            </Header>
     
-    <p><h1 id="Titulo"> GESTIÓN DE VENDEDORES </h1></p>
-    
-    <div className="botones" >
-    
-        <Botones name="Administracion" texto="Registrar Información Nuevo Vendedor"/>
-        <Botones name="Administracion" texto="Modificar información personal nuevo Vendedor"/>
-        <Botones name="Administracion" texto="Consultar informacion vendedores"/>
-        
-
-
-    
-    </div>
-    
-
-
-</div>
+            <div className="botones" >
+                <div id='boton1'>
+                    <Link to='/registrar'><Botones  texto="Registrar Información Nuevo Vendedor" /></Link> 
+                </div>
+                <div id="boton2">
+                    <Link to='/modificar'><Botones texto="Modificar información personal nuevo Vendedor"/></Link>
+                </div>
+                <div id="boton3">
+                <Link to='/consultar'><Botones texto="Consultar informacion vendedores"/></Link>
+                </div>
+            </div>
+        </div>
     );
 }
 

@@ -7,6 +7,7 @@
     text-shadow: 3px 3px 4px rgb(87, 83, 83);
     }
 
+
 .botones {
         justify-content: center;
         align-items: center;
@@ -24,29 +25,14 @@
         background-image: linear-gradient(to bottom,#ffd900, #ffa835);
         }
 
-    #div_med{
-    
-        
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        flex-direction: row;
-        width: 900px auto;
-        height: 100px;        
-        padding: 40px;
-        border-radius: 30px;
-        margin: 100px;
-    }
-
 
 #boton1{
+        
         margin: 0px 30px;
         width: 250px;
         height: 120px;
         font-size: 20px;
-        font-style:Large;
         font-family:Verdana;
-        transform: scale();
         border-radius: 15px;
         background-image: -webkit-linear-gradient(top, #ffffff, #808080);
         background-image: -moz-linear-gradient(top, #ffffff, #808080);
@@ -122,5 +108,7 @@
     background-image: -o-linear-gradient(top, #808080, #ffffff);
     background-image: linear-gradient(to bottom,#808080, #ffffff);
 }
+
+
   
     
