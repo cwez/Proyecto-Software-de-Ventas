@@ -2,7 +2,7 @@
 
 function Botones(props){
     return(
-        <button name={props.name}>{props.texto} </button>
+        <button className={props.name} >{props.texto} </button>
     )
 }
 
