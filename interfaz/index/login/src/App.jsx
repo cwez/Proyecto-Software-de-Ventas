@@ -1,3 +1,6 @@
+
+
+
 import logo from './logo.png';
 import logoGoogle from './google.png';
 import './App.css';
@@ -41,7 +44,7 @@ function App() {
                     <GoogleLogin
                   clientId="415572449376-ks71dn2e1rc9o1q9olchksf2fmurl48d.apps.googleusercontent.com"
                   render={renderProps => (
-                    <button id="Google" onClick={renderProps.onClick} disabled={renderProps.disabled}> <img src={logoGoogle} id="logoGoogle"/> Iniciar con Google</button>
+                    <button id="Google" onClick={renderProps.onClick} disabled={renderProps.disabled}> <img src={logoGoogle} id="logoGoogle" alt='logoGoogle'/> Iniciar con Google</button>
                   )}
                   //buttonText="Iniciar con Google"
                   onSuccess={responseGoogle}
@@ -57,7 +60,13 @@ function App() {
   
             </div>
       </div>
+
   </div>
+
+    
+
+
+
   );
 }
 

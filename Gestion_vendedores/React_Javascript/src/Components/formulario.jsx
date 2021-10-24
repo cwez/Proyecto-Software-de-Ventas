@@ -2,7 +2,9 @@ import React from 'react';
 import '../Estilos/registrar.css';
 
 
-
+const enviarDatosAlBackend = () =>{
+    
+}
 
 
 function Formulario() {
@@ -43,7 +45,7 @@ function Formulario() {
                 </div>
                 
                 <div className='boton'>
-                    <br></br><button type='submit' id="boton_enviar">Registrar</button> <br></br>
+                    <br></br><button onClick={enviarDatosAlBackend} type='submit' id="boton_enviar">Registrar</button> <br></br>
                 </div>
             </div>
             </form>

@@ -5,3 +5,28 @@ h1 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: 3px 3px 4px rgb(87, 83, 83);
     }
+h2{
+    font-size:35px; 
+    color: black; 
+    text-align: center; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 3px 3px 4px rgb(87, 83, 83);
+}
+
+table{
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+#tablita{
+    text-align: center;
+    background-color: rgb(194, 194, 194);
+    display: block;
+    height: 900px;
+    width: 1000px;
+    margin: auto;
+    border-radius: 15px;
+    
+}
+
