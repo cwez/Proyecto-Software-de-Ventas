@@ -9,7 +9,7 @@ function PaginaPrincipal(){
         <div>
     
             <Header>
-                <div>MÓDULO GESTIÓN DE VENDEDORES</div>
+                <div>MÓDULO GESTIÓN DE VENDEDores</div>
             </Header>
     
             <div className="botones" >
