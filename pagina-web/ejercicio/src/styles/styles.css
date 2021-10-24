@@ -1,0 +1,180 @@
+.App{
+  background-color: rgb(93, 119, 134);
+font-family: Arial, Helvetica,sans-seriff;
+font-size: 14px;
+margin:auto auto;
+position: absolute;
+height: 657px;
+width: 1366px;
+}
+header, nav, section, article, footer{
+display:flex;
+}
+header{
+height: 141px;
+position: relative;
+}
+figure.logo{
+position: relative;
+top:15px;
+left: 1px;
+float: left;
+}
+.botones{
+  margin: auto auto;
+  width: 680px;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  text-align: center;
+}
+#idadministracion{
+  background-color:#D4ECDD;
+  border-radius: 30px;
+  transition: 2s;
+  height: 180px;
+  width: 350px;
+  font-size: 30px
+}
+#idregistro{
+  background-color:#D4ECDD;
+  border-radius: 30px;
+  transition: 2s;
+  height: 180px;
+  width: 350px;
+  font-size: 30px
+}
+#idadministracion:hover{
+  text-shadow: 1px 1px 2px #122124;
+  background-image: -webkit-linear-gradient(top, #D4ECDD, #345B63);
+  background-image: -moz-linear-gradient(top, #D4ECDD, #345B63);
+  background-image: -ms-linear-gradient(top, #D4ECDD, #345B63);
+  background-image: -o-linear-gradient(top, #D4ECDD, #345B63);
+  background-image: linear-gradient(top bottom,#D4ECDD, #345B63);
+  animation-delay: 5s;
+  transform:scale(1.2,1.2) ;
+  -moz-transform: scale(1.2,1.2) ;
+  -o-transform: scale(1.2,1.2);
+  -ms-transform: scale(1.2,1.2) ;
+  -webkit-transform: scale(1.2,1.2);
+}
+#idregistro:hover{
+  text-shadow: 1px 1px 2px #122124;
+  background-image: -webkit-linear-gradient(top, #D4ECDD, #345B63);
+  background-image: -moz-linear-gradient(top, #D4ECDD, #345B63);
+  background-image: -ms-linear-gradient(top, #D4ECDD, #345B63);
+  background-image: -o-linear-gradient(top, #D4ECDD, #345B63);
+  background-image: linear-gradient(top bottom,#D4ECDD, #345B63);
+  transform:scale(1.2,1.2) ;
+  -moz-transform: scale(1.2,1.2);
+  -o-transform: scale(1.2,1.2) ;
+  -ms-transform: scale(1.2,1.2) ;
+  -webkit-transform: scale(1.2,1.2);   
+}
+.titulo{
+  margin: -500px 190px;
+  font-size: 25px;
+  text-shadow: 1px 1px 2px rgb(204, 82, 0);
+  width: 620px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  text-align: center;
+}
+.registro{
+  margin: -310px -45px;
+  align-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color:#c0c0c0;
+  box-shadow: 1px 1px 5px #122124;
+  width: 720px;
+  height: 626px;
+  display: flex;
+  flex-direction:column;
+  font-size: 20px
+}
+  
+  
+button{
+  font-size: 45px;
+  margin-bottom: 10px;
+  height: 40px;
+  width: 500px;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 5px #122124;
+}
+button:hover{
+  transform:scale(1.2,1.2) ;
+  -moz-transform: scale(1.2,1.2);
+  -o-transform: scale(1.2,1.2) ;
+  -ms-transform: scale(1.2,1.2) ;
+  -webkit-transform: scale(1.2,1.2);
+  text-shadow: 1px 1px 2px #122124;   
+}
+label{
+  border-radius: 5px;
+  margin: auto 0px;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+}
+input{
+  font-size: 30px;
+  border-radius:5px;
+}
+.titulo_admin{
+  margin: 0px auto;
+  font-size: 20px;
+  text-shadow: 1px 1px 2px rgb(204, 82, 0);
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  text-align: center;
+}
+section.consulta{
+  border-radius: 5px;
+  background-color:#c0c0c0;
+  box-shadow: 1px 1px 5px #122124;
+  margin: auto auto;
+  width: 800px;
+  height: 200px;
+  padding: 4px;
+  display:flex;
+  flex-direction: row;
+  font-size: 20px
+}
+aside.lateral{
+  margin: -150px 10px;
+  float:right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#idbuscar{
+  box-shadow: 1px 1px 5px #122124;
+  border-radius: 30px;
+  height: 70px;
+  width: 160px;
+  font-size: 26px
+}
+#inputadmin{
+  box-shadow: 1px 1px 5px #122124;
+  margin-bottom: 5px;
+  font-size: 20px;
+  border-radius:5px;
+}
+#idbuscar:hover{
+  transform:scale(1.2,1.2) ;
+  -moz-transform: scale(1.2,1.2);
+  -o-transform: scale(1.2,1.2) ;
+  -ms-transform: scale(1.2,1.2) ;
+  -webkit-transform: scale(1.2,1.2);   
+  text-shadow: 1px 1px 2px #122124;
+}
