@@ -1,6 +1,5 @@
 
 import { BrowserRouter as Router, Switch, Route,} from 'react-router-dom';
-
 import PaginaPrincipal from './Pages/PaginaPpal';
 import Registrar from './Pages/registrar';
 import Modificar from './Pages/modificar';
