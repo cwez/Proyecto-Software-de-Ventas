@@ -1,7 +1,7 @@
-
+import {Link} from 'react-router-dom';
 import logo from '../logo.png';
 import logoGoogle from '../google.png';
-import '../Estilos/Inicio.css';
+import '../Estilos/inicio.css';
 import GoogleLogin from 'react-google-login';
 
 function Inicio() {
@@ -51,7 +51,7 @@ function Inicio() {
                     </div>
                     <div className="Acceder">
                         <button id="Acceder">Acceder  </button>
-                        <button id="Registrar">Regístrate  </button>
+                        <Link to='/registro'><button id="Registrar">Regístrate  </button></Link>
                     </div>
                    
                 </div>

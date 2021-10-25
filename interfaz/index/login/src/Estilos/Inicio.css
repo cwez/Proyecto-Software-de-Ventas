@@ -40,7 +40,7 @@ input{
   font-size: 1.7em;
   border-radius: 10px;
   padding: 0 .5em;
-  height: 50px;
+  height: 60px;
   width: 500px;
   outline: none;
   color: white;
@@ -93,8 +93,9 @@ input:focus + label{
   font: bold 120% sans-serif;    
   margin-left: 105px;
   margin-top: 20px;
-  border-radius: 20px;
-  border-color: white;  
+  border-radius: 10px;
+  border-color: white;
+  height: 45px;  
 }
 
 #Registrar{
@@ -103,8 +104,9 @@ input:focus + label{
   font: bold 120% sans-serif;    
   margin-left: 20px;
   margin-top: 20px;
-  border-radius: 20px;
+  border-radius: 10px;
   border-color: white;
+  height: 45px; 
 }
 
 
