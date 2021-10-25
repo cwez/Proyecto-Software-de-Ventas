@@ -40,10 +40,11 @@ function Registro() {
                 <div className='boton'>
                     <br></br><button  type='submit' id="boton_enviar">Registrar</button> <br></br>
                 </div>
+                
             </div>
             </form>
         </div>
-        </div>
+    </div>
     );
 }
 

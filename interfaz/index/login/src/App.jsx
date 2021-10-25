@@ -13,7 +13,7 @@ function App() {
           <Route path="/registro" exact>
              <Registro/>
           </Route>
-          <Route path="/" exact>
+          <Route path="" exact>
              <Inicio/>
           </Route>
        </Switch>

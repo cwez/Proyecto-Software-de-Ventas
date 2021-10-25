@@ -2,77 +2,101 @@ body{
   background-color: #112031;
   width: 100%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font: 120% sans-serif;
+  
 }
+
 .textoIS{
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100px;
 }
+
 #IS{
   color: white;
   text-align: center;
   font-size: 150%;
+  font-family: 'Tahoma';
 }
+
+.formulario{
+  align-items: center;
+  
+  text-align: center;
+  
+  width: 700px;
+  height: 240px;
+  display: grid;
+  margin: auto;
+  
+}
+
 .entradaTextoCedula{
   position: relative;
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
-  height: 1.8cm;
-  margin: 39px;
+  height: 70px;
+  width: 500px; 
+  margin: auto;
+  text-align:right;
+
 }
+
 .entradaTextoContraseña{
   position: relative;
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
-  height: 1.8cm;
-  margin: 39px;
+  height: 70px;
+  width: 500px; 
+  margin:auto;
+  text-align:center;
+  
+  
 }
+
 input{
   background: none;
   border: 2px solid white;
   font-size: 1.7em;
   border-radius: 10px;
   padding: 0 .5em;
-  height: 60px;
-  width: 500px;
+  height: 40px;
+  width: 300px;
   outline: none;
   color: white;
 
 }
 
 input + label{
-  transition: all .3s ease;
+  transition: all .2s ease;
   position:absolute;
-  top: .9em;
-  left: .90em;
+  top: 0.9em;
+  left: 5.3em;
   color: white;
+  text-align: right;
   
   
 }
+
 input:focus + label{
-  transition: all .3s ease;
-  top: -.9em;
-  left: .10em;
+  transition: all .2s ease;
+  top: -0.5em;
+  left: 6em;
   font-size: 1em;
   color: white;
-  z-index: 100;
-  
   border: none;
-  text-align: center;
+  text-align: left;
 }
+
 .LogoSS{
   size: 2cm;
-  display: flex;
+  display: grid;
   justify-content: center;
 
 }
+
 #logo{
   size: 2cm;
   width: 2cm;
@@ -86,7 +110,6 @@ input:focus + label{
   display:contents;
 }
 
-
 #Acceder{
   color: white;
   background: #112031;    
@@ -95,8 +118,16 @@ input:focus + label{
   margin-top: 20px;
   border-radius: 10px;
   border-color: white;
-  height: 45px;  
+  height: 45px;
+  width: 110px;  
 }
+
+#Acceder:hover{
+  transition: 0.5s;
+    transform: scale(1.5, 1.5);
+    -webkit-transform: scale(1.1, 1.1);
+}
+
 
 #Registrar{
   color: white;
@@ -106,9 +137,16 @@ input:focus + label{
   margin-top: 20px;
   border-radius: 10px;
   border-color: white;
-  height: 45px; 
+  height: 45px;
+  width: 110px;
+   
 }
 
+#Registrar:hover{
+  transition: 0.5s;
+    transform: scale(1.5, 1.5);
+    -webkit-transform: scale(1.1, 1.1);
+}
 
 #Google{
   color: #112031;
@@ -119,14 +157,42 @@ input:focus + label{
   margin-top: 20px;
   border-radius: 20px;
 }
+
+#Google:hover{
+  transition: 0.5s;
+    transform: scale(1.5, 1.5);
+    -webkit-transform: scale(1.1, 1.1);
+}
+
 #logoGoogle{
   width: 15px;
 }
+
 #olvide{
-  margin-left: 380px;
+  margin: auto;
   color: white;
   background: #112031;    
   font: 80% sans-serif;
   border: none;
   text-decoration: underline;
+  display: grid;
+  text-align: center;
+  align-items: center;
 }
+
+.olvideConstraseña{
+  display: flex;
+  text-align: center;
+  width: 10px;
+  height: 10px;
+  margin: auto;
+
+}
+
+.Botones_1{
+  align-items: center;
+  margin: auto;
+  display: flex;
+  width: 700px;
+}
+

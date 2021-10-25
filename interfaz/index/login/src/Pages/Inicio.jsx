@@ -29,15 +29,15 @@ function Inicio() {
                         <label for="contraseña">Contraseña</label>
                     </div>
 
-                </form>
-                <form>
-                <div>
+                
+                
+                
                     <div className="olvideContraseña">
                         <button id="olvide">Olvidé mi contraseña</button>
+                    
                     </div>
-                </div>
 
-                <div className="Botones 1">
+                <div className="Botones_1">
                     <div className="Google">
                     <GoogleLogin
                   clientId="415572449376-ks71dn2e1rc9o1q9olchksf2fmurl48d.apps.googleusercontent.com"
