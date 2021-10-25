@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Switch, Route,} from 'react-router-dom';
-import Inicio from './Inicio.jsx';
+import Inicio from './Pages/Inicio.jsx';
 
 
 
@@ -11,6 +11,8 @@ function App() {
          <Route path="/" exact>
              <Inicio/>
           </Route>
+
+          
        </Switch>
    </Router>
   
