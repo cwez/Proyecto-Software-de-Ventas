@@ -22,11 +22,13 @@ table{
 #tablita{
     text-align: center;
     background-color: rgb(194, 194, 194);
-    display: block;
-    height: 900px;
-    width: 1000px;
+    align-content: center;
+    height: auto;
+    width: auto;
     margin: auto;
     border-radius: 15px;
+    padding: 40px;
+    
     
 }
 

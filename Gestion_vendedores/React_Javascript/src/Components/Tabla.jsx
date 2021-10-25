@@ -11,9 +11,9 @@ function Tabla () {
                 <tr>
                     <th>Nombres</th>
                     <th>Apellidos</th>
-                    <th>Correo Elecrtonico</th>
-                    <th>Telefono</th>
-                    <th>Direccion</th>
+                    <th>Correo Electrónico</th>
+                    <th>Teléfono</th>
+                    <th>Dirección</th>
                 </tr>
             </thead>
             <tbody>
