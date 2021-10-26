@@ -48,13 +48,15 @@ label{
 
 #boton_enviar{
     color: white;
-  background: #112031;    
+  background: #80c078;    
   font: bold 120% sans-serif;    
   margin-left: 20px;
   margin-top: 20px;
   border-radius: 10px;
-  border-color: white;
+  border-color: #80c078;
   height: 45px;
+  width: 350px;
+  border: 0px;
 }
 
 #boton_enviar:hover{
