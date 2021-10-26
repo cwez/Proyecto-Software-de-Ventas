@@ -1,0 +1,120 @@
+body{
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 120% sans-serif;
+  }
+  .textoIS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  #IS{
+    color: #112031;
+    text-align: center;
+    font-size: 150%;
+  }
+  .entradaTextoCedula{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.8cm;
+  }
+  .entradaTextoContraseña{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.8cm;
+  }
+  input{
+    background: none;
+    border: 2px solid #112031;
+    font-size: 1.7em;
+    border-radius: 10px;
+    padding: 0 .5em;
+    height: 50px;
+    width: 500px;
+    outline: none;
+    color: #112031;
+  }
+  input + label{
+    transition: all .3s ease;
+    position: absolute;
+    top: .8em;
+    left: .5em;
+    color: #112031;
+    background: white;
+    border-radius: 2mm;
+    
+  }
+  input:focus + label{
+    transition: all .3s ease;
+    top: -.2em;
+    left: .7em;
+    font-size: 1em;
+    color: #112031;
+    z-index: 100;
+    background: white;
+    border: none;
+    text-align: center;
+  }
+  .LogoSS{
+    size: 2cm;
+    display: flex;
+    justify-content: center;
+  
+  }
+  #logo{
+    size: 2cm;
+    width: 2cm;
+  }
+  
+  .Acceder{
+    display: contents;
+  }
+  
+  .Google{
+    display:contents;
+  }
+  
+  
+  #Acceder{
+    color: #112031;
+    background: white;    
+    font: bold 120% sans-serif;    
+    margin-left: 105px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border-color: #112031;
+    
+  }
+  #Google{
+    color: white;
+    background-color: #112031;
+    font: bold 120% sans-serif;
+    margin-right: 85px;
+    border: none;
+    margin-top: 22px;
+    border-radius: 20px;
+    
+    
+  }
+  #logoGoogle{
+    width: 20px;
+    border-right: 2mm;
+  }
+  #olvide{
+    margin-left: 365px;
+    color: #112031;
+    background: white;    
+    font: 80% sans-serif;
+    border: none;
+    text-decoration: underline;
+    font-weight: bold;
+  }
