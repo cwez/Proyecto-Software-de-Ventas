@@ -52,6 +52,7 @@ function Inicio() {
                     <div className="Acceder">
                         <button id="Acceder">Acceder  </button>
                         <Link to='/registro'><button id="Registrar">Regístrate  </button></Link>
+                        <Link to='/modulos'><button id="MODULOS">MODULOS  </button></Link>
                     </div>
                    
                 </div>

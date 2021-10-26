@@ -1,11 +1,19 @@
 
 
-h2{
+#h2{
     font: 60px sans-serif;
     font-family: 'Tahoma';
     color: white;
     text-align: center;
     margin-top: 90px;
+}
+
+#h2_2{
+    font: 30px sans-serif;
+    font-family: 'Tahoma';
+    color: white;
+    text-align: center;
+    
 }
 
 .LogoSS{
@@ -47,4 +55,22 @@ label{
   border-radius: 10px;
   border-color: white;
   height: 45px;
+}
+
+#boton_enviar:hover{
+    transition: 0.5s;
+      transform: scale(1.5, 1.5);
+      -webkit-transform: scale(1.1, 1.1);
+  }
+  
+
+.interno{
+    text-align: center;
+    
+    display: block;
+    height: 900px;
+    width: 1000px;
+    margin: auto;
+    border-radius: 15px;
+
 }

@@ -10,9 +10,10 @@ function Registro() {
                     <img src={logo} classNameName='logo' alt='logo' id="logo"/>
         </div>
         <div className="registrate">
-            <h2>
+            <h2 id="h2">
                 Registrate
             </h2>
+            <h2 id="h2_2">¡Es fácil y rápido!</h2>
         </div>
         <div className='Registro'>
             <form action="">
@@ -40,7 +41,7 @@ function Registro() {
                 <div className='boton'>
                     <br></br><button  type='submit' id="boton_enviar">Registrar</button> <br></br>
                 </div>
-                
+
             </div>
             </form>
         </div>
