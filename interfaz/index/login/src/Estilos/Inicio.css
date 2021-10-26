@@ -102,10 +102,6 @@ input:focus + label{
   width: 2cm;
 }
 
-.Acceder{
-  display: contents;
-}
-
 .Google{
   display:contents;
 }
@@ -114,8 +110,9 @@ input:focus + label{
   color: white;
   background: #112031;    
   font: bold 120% sans-serif;    
-  margin-left: 105px;
-  margin-top: 20px;
+  margin-left: auto;
+  margin-right: 20px;
+  margin-top: auto;
   border-radius: 10px;
   border-color: white;
   height: 45px;
@@ -134,11 +131,13 @@ input:focus + label{
   background: #112031;    
   font: bold 120% sans-serif;    
   margin-left: 20px;
-  margin-top: 20px;
+  margin-right: auto;
+  margin-top: auto;
   border-radius: 10px;
   border-color: white;
   height: 45px;
   width: 110px;
+  
    
 }
 
@@ -148,14 +147,30 @@ input:focus + label{
     -webkit-transform: scale(1.1, 1.1);
 }
 
+#div_google{
+  align-content: center;
+  text-align: center;
+  justify-content: baseline;
+  
+}
+
 #Google{
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  text-justify: auto;
   color: #112031;
   background-color: white;
-  font: bold 120% sans-serif;
-  margin-left: 40px;
-  border: none;
-  margin-top: 20px;
-  border-radius: 20px;
+  font: bold 20px sans-serif;
+  width: 300px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0px;
+  margin-top: auto;
+  border-radius: 12px;
+  display: flex;
+  
 }
 
 #Google:hover{
@@ -165,34 +180,44 @@ input:focus + label{
 }
 
 #logoGoogle{
-  width: 15px;
+  width: 20px;
+  height: 20px;
 }
 
 #olvide{
-  margin: auto;
+  
   color: white;
   background: #112031;    
-  font: 80% sans-serif;
+  font: 15px sans-serif;
   border: none;
   text-decoration: underline;
   display: grid;
   text-align: center;
   align-items: center;
+  width: 200px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .olvideConstraseña{
   display: flex;
   text-align: center;
-  width: 10px;
-  height: 10px;
+  width: 60px;
+  height: 20px;
   margin: auto;
+  justify-content: center;
 
 }
 
 .Botones_1{
-  align-items: center;
-  margin: auto;
-  display: flex;
+  
+  text-align: center;
   width: 700px;
+  height: 80px;
+  margin-top: 20px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 

@@ -1,5 +1,7 @@
-import Botones from 'Gestion_vendedores/React_Javascript/src/Components/Botones.jsx';
-import Header from 'Gestion_vendedores/React_Javascript/src/Components/Header.jsx';
+/*
+
+import Botones from 'Components/Botones.jsx';
+import Header from 'Components/Header.jsx';
 import {Link} from 'react-router-dom';
 import '../Estilos/inicio.css';
 
@@ -25,3 +27,5 @@ function Modulos(){
     }
 
 export default Modulos;
+
+*/
