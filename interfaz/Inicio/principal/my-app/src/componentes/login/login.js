@@ -1,7 +1,7 @@
 import React from "react";
 import GoogleLogin from "react-google-login";
 import logo from "../img/logo.png";
-import google from "../img/google.png";
+// import google from "../img/google.png";
 import "./login.css";
 
 function Login() {
@@ -28,7 +28,7 @@ function Login() {
             JSON.stringify(respuestaServidor.usuario)
           );
           console.log(respuestaServidor);
-          window.location.href = "/listarUsuarios";
+          window.location.href = "/home";
         });
     }
   }

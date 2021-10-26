@@ -8,6 +8,7 @@ import {
 import Login from './componentes/login/login';
 import ListarUsuarios from './componentes/usuarios/usuarios';
 import Ventas from './componentes/ventas/ventas';
+import Home from './componentes/home/home';
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
           </Route>
           <Route path="/ventas">
             <Ventas></Ventas>
+          </Route>
+          <Route path="/home">
+            <Home></Home>
           </Route>
           <Route path="*">
             <Redirect to="/login" />

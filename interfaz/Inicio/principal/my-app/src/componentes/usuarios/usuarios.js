@@ -5,6 +5,7 @@ import {
     Redirect
 } from 'react-router-dom';
 
+
 function ListarUsuarios(){
     let [loggedUser, setLoggerUser]= useState(
         localStorage. getItem('usuario') ?
@@ -61,6 +62,7 @@ function ListarUsuarios(){
 
     return(
         <div>
+            
             {!token && <Redirect to= '/login'/> }
             <h1>Listar Usuarios</h1>
             <table>
