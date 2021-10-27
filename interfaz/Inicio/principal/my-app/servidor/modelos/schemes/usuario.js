@@ -6,7 +6,7 @@ const userSchema = new Schema({
     nombres: String,
     apellidos: String,
     rol: String,
-    activado: Boolean
+    activado: String,
 });
 
 module.exports = userSchema;

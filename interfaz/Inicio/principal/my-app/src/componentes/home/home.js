@@ -1,29 +1,14 @@
 import React from "react";
-import { useEffect } from "react";
-import { useState } from "react";
-import { Redirect } from "react-router-dom";
+import "./home.css";
+import Usuario from "../user/user";
 import homelogo from "../img/home (1).png"
 import ss from "../img/logo.png"
 import logouser from "../img/man-user.png"
 import logosales from "../img/discount.png"
 import logologout from "../img/logout.png"
-
-function Ventas (){
-  let [loggedUser, setLoggerUser] = useState(
-    localStorage.getItem("usuario")
-      ? JSON.parse(localStorage.getItem("usuario"))
-      : null
-  );
-
-  let [token, setToken] = useState(true);
-  let [usuarios, setUsuarios] = useState([]);
-  
-  
-
-    return(
-      
-        <div>
-            <div id="major">
+function Home (){
+    return (
+      <div id="major">
         <div id="menu">
           <div id="infoperfil">
             <ul id="listaFN">
@@ -64,15 +49,11 @@ function Ventas (){
             </ul>
           </div>
           <div id="contenido">
-          {!token && <Redirect to="/login" />}
-            <h1>Ventas</h1>
           <img src ={ss} className="ss" alt="ss" id="ss" />
           </div>
         </div>
       </div>
-            
-        </div>
     );
 }
 
-export default Ventas;
+export default Home;

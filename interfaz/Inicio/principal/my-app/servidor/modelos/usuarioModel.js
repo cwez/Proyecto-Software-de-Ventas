@@ -11,9 +11,11 @@ const userTools = ()=>{
             } else {
                 if(!usuarioBD) {
                     user.rol = "Pendiente";
+                    user.activado = "Inactivo"
                     userModel.create(user, callback);
                 } else {
                     user.rol = usuarioBD.rol;
+                    user.activado = usuarioBD.activado;
                     this.actualizarUsuario(user, callback);
                 }
             }

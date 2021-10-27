@@ -1,0 +1,32 @@
+table {
+    width: 100%;
+    border: 1px solid #112031;
+ }
+ th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #112031;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+ }
+ caption {
+    padding: 0.3em;
+    color: #fff;
+     background: #112031;
+ }
+ th {
+    background: #eee;
+ }
+ #campoedit{
+    text-align: center;
+ }
+ #contenidousuario{
+    display: flex;
+    background-color: #D4ECDD;
+    width: 100%;
+    margin-top: 1mm;
+    margin-left: 1mm;
+
+}
