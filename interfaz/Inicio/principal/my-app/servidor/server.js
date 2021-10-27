@@ -76,6 +76,7 @@ app.post('/actualizarUsuario', async (req, res) => {
             nombres: req.body.nombres,
             apellidos: req.body.apellidos,
             rol: req.body.rol
+
         }, (error, usuario) => {
             if (error) {
                 res.status = 500;

@@ -6,7 +6,7 @@ function Usuario() {
 
     // Esta funcion llama al servidor para saber cual es el usuario
     useEffect(()=>{
-        fetch('urlDelServidor/usuario')
+        fetch('http://localhost:8080/usuarios')
         .then((json)=>json.json())
         .then((response)=>{
             setUsuario(response.usuario);
@@ -16,6 +16,7 @@ function Usuario() {
     // Esta funcion tiene un renderizado condicional por eso la dejo aca
     function renderUser() {
         // Valida que exista la información del usuario, si la longitud es 0 significa que no hay ningun usuario
+        
         if(Object.keys(usuario).length > 0) {
             return (
                 <div>
