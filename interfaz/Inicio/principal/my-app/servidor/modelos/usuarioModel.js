@@ -11,7 +11,7 @@ const userTools = ()=>{
             } else {
                 if(!usuarioBD) {
                     user.rol = "Pendiente";
-                    user.activado = "Inactivo"
+                    user.activado = "Desautorizado";
                     userModel.create(user, callback);
                 } else {
                     user.rol = usuarioBD.rol;

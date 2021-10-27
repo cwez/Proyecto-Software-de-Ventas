@@ -57,7 +57,7 @@ function ListarUsuarios() {
         nombres: usuario.nombres,
         apellidos: usuario.apellidos,
         rol: rol,
-        activado: activado,
+        activado: activado
       }),
     })
       .catch((err) => console.error(err))
@@ -78,7 +78,8 @@ function ListarUsuarios() {
               </li>
               <li>
                 <a>
-                  Byron David
+                  <h1>{loggedUser.nombres} </h1>
+                  <h1>{loggedUser.apellidos} </h1>
                   {/* <Usuario></Usuario> */}
                 </a>
               </li>
@@ -174,7 +175,7 @@ function ListarUsuarios() {
                     <td>
                       <select
                         onChange={(e) => {
-                          actualizarUsuario(e, usuario);
+                          actualizarUsuario(e, usuario)
                         }}
                         value={usuario.rol}
                       >
@@ -185,14 +186,9 @@ function ListarUsuarios() {
                     </td>
                     <td>{usuario.activado}</td>
                     <td>
-                      <select
-                        onChange={(e) => {
-                          actualizarUsuario(e, usuario);
-                        }}
-                        value2={usuario.activado}
-                      >
-                        <option value2="Activo">Activo</option>
-                        <option value2="Inactivo">Inactivo</option>
+                      <select onChange={(e)=> {actualizarUsuario(e, usuario)}} value2={usuario.activado}>
+                        <option value2="Autorizado">Autorizado</option>
+                        <option value2="Desautorizado">Desautorizado</option>
                       </select>
                     </td>
                     

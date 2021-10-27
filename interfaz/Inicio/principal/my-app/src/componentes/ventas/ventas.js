@@ -17,6 +17,25 @@ function Ventas (){
 
   let [token, setToken] = useState(true);
   let [usuarios, setUsuarios] = useState([]);
+
+  useEffect(() => {
+    const tokenStorage = localStorage.getItem("token");
+    if (tokenStorage && (loggedUser.rol === "Administrador" || loggedUser.rol === "Vendedor") ) {
+      fetch("http://localhost:8080/usuarios", {
+        headers: {
+          "Content-Type": "application/json",
+          token: tokenStorage,
+        },
+      })
+        .catch((err) => console.error(err))
+        .then((response) => response.json())
+        .then((usuarios) => {
+        });
+    } else {
+      alert("No estás autorizado para esta función");
+      setToken(false);
+    }
+  }, []);
   
   
 
@@ -40,7 +59,7 @@ function Ventas (){
           </div>
           <div id="espacio"></div>
           <div id="logout">
-            <button id="Salir"> <img src={logologout}className="logologout" alt="logologout" id="logologout" /> Salir </button>
+            <button id="Salir" > <img src={logologout}className="logologout" alt="logologout" id="logologout" /> Salir </button>
           </div>
         </div>
         <div id="general">
