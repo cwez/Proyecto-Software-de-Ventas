@@ -8,6 +8,7 @@ import logouser from "../img/man-user.png";
 import logosales from "../img/discount.png";
 import logologout from "../img/logout.png";
 import "./usuarios.css";
+import logoedit from "../img/edit.png"
 
 function ListarUsuarios() {
   let [loggedUser, setLoggerUser] = useState(
@@ -44,7 +45,7 @@ function ListarUsuarios() {
     // Llamar al servidor
     const tokenStorage = localStorage.getItem("token");
     const rol = e.target.value;
-    const activado = e.target.value;
+    const activado = e.target.value2;
     fetch("http://localhost:8080/actualizarUsuario", {
       method: "POST",
       headers: {
@@ -85,7 +86,7 @@ function ListarUsuarios() {
           </div>
           <div id="espacio"></div>
           <div id="logout">
-            <button id="Salir">
+            <button id="Salir" >
               {" "}
               <img
                 src={logologout}
@@ -142,7 +143,7 @@ function ListarUsuarios() {
               </li>
             </ul>
           </div>
-          <div id="contenido">
+          <div id="contenidousuario">
             {!token && <Redirect to="/login" />}
             <table>
               <caption>Usuarios</caption>
@@ -152,8 +153,15 @@ function ListarUsuarios() {
                   <th>Nombre</th>
                   <th>Apellido</th>
                   <th>Rol</th>
-                  <th>Accion</th>
+                  <th id="campoedit" ><img src={logoedit}className="logoedit"
+                alt="logoedit"
+                id="logoedit"
+                    /></th>
                   <th>Estado</th>
+                  <th id="campoedit" ><img src={logoedit}className="logoedit"
+                alt="logoedit"
+                id="logoedit"
+                    /></th>
                 </tr>
               </thead>
               <tbody>
@@ -176,6 +184,17 @@ function ListarUsuarios() {
                       </select>
                     </td>
                     <td>{usuario.activado}</td>
+                    <td>
+                      <select
+                        onChange={(e) => {
+                          actualizarUsuario(e, usuario);
+                        }}
+                        value2={usuario.activado}
+                      >
+                        <option value2="Activo">Activo</option>
+                        <option value2="Inactivo">Inactivo</option>
+                      </select>
+                    </td>
                     
                   </tr>
                 ))}

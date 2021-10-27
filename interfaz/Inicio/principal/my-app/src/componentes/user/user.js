@@ -25,6 +25,7 @@ function Usuario() {
                         <li><span>Apellidos: </span>{usuario.apellidos}</li>
                         <li><span>E-mail: </span>{usuario.email}</li>
                         <li><span>Rol: </span>{usuario.rol}</li>
+                        
                     </ul>
                 </div>
             );

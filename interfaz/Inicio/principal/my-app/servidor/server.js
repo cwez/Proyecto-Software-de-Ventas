@@ -41,7 +41,7 @@ app.post('/login', async(req, res) => {
             email: req.body.email,
             nombres: req.body.nombres,
             apellidos: req.body.apellidos,
-            activado: false
+            activado: req.body.activado
         }, (error, usuario) =>{
             if(error){
                 res.status = 500;
@@ -75,7 +75,8 @@ app.post('/actualizarUsuario', async (req, res) => {
             email: req.body.email,
             nombres: req.body.nombres,
             apellidos: req.body.apellidos,
-            rol: req.body.rol
+            rol: req.body.rol,
+            activado: req.body.activado,
 
         }, (error, usuario) => {
             if (error) {
