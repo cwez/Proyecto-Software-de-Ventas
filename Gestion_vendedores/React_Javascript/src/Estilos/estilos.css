@@ -19,11 +19,8 @@
         padding: 70px;
         border-radius: 30px;
         margin: 100px;
-        background-image: -webkit-linear-gradient(top, #ffd900, #ffa835);
-        background-image: -moz-linear-gradient(top, #ffd900, #ffa835);
-        background-image: -ms-linear-gradient(top, #ffd900, #ffa835);
-        background-image: -o-linear-gradient(top, #ffd900, #ffa835);
-        background-image: linear-gradient(to bottom,#ffd900, #ffa835);
+        
+        
         
         
         }
@@ -36,6 +33,7 @@ button{
     font-size: 20px;
     font-family:Verdana;
     border-radius: 15px;
+    border: 0px;
     background-image: -webkit-linear-gradient(top, #ffffff, #808080);
     background-image: -moz-linear-gradient(top, #ffffff, #808080);
     background-image: -ms-linear-gradient(top, #ffffff, #808080);
@@ -48,6 +46,7 @@ button:hover {
     transition: 0.5s;
     transform: scale(1.0, 1.0);
     -webkit-transform: scale(1.1, 1.1);
+    border: 0px;
     background-image: -webkit-linear-gradient(top, #808080, #ffffff);
     background-image: -moz-linear-gradient(top, #808080, #ffffff);
     background-image: -ms-linear-gradient(top, #808080, #ffffff);

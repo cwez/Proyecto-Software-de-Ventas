@@ -1,18 +1,38 @@
-import React from 'react';
+import React, {useEffect, useState } from 'react';  // se debe importar de esta manera el useEffect para poderlos usar dentro del componente formulario
 import '../Estilos/registrar.css';
 
 
 
 
 
-function Formulario() {
+const Formulario =() => {
+
+
+
+    const   [nombreVendedor, setNombreVendedor] = useState("")
+
+
+    useEffect(() =>{console.log("Hola soy la nueva función");},[]);     // cada que el valor de la variable que está dentro de los corchetes
+                                                                        // cambie, va a ejecutar la funcion que se encuentra antes de la coma, "funcionDePrueba"
+                                                                        // la funcion se debe declarar antes del useEffect.
+                                                                        // useEffect se puede usar para traer la información desde una Base de Datos.
+
+    useEffect(()=>{console.log("Funcion que se ejecuta cada que cambia el nombre")},[nombreVendedor]);
+
+
+
+        const enviarDatosAlBackend=() =>{
+        console.log("El valor de Nombre es: ", nombreVendedor);
+    };
+
+
     return (
            
         <div className='Formulario'>
             <form action="">
                 <div className='interno'>
                 <label id="etiqueta_nombre"><b>Nombres: </b></label><br/>
-                <input type="text" id="cuadro_nombre" size="35px" required/><br></br><br/>
+                <input onChange={(e) =>{setNombreVendedor(e.target.value);}} type="text" id="cuadro_nombre" size="35px" required/><br></br><br/>
                 <label id="etiqueta_apellidos"><b>Apellidos: </b></label><br/>
                 <input type="text" id="cuadro_apellido" size="35px" required/><br></br><br/>
                 <label id="etiqueta_doc"><b>Género: </b></label>
@@ -43,7 +63,7 @@ function Formulario() {
                 </div>
                 
                 <div className='boton'>
-                    <br></br><button type='submit' id="boton_enviar">Registrar</button> <br></br>
+                    <br></br><button type='button' onClick={enviarDatosAlBackend}  id="boton_enviar">Registrar</button> <br></br>
                 </div>
             </div>
             </form>
