@@ -2,7 +2,6 @@
 import { BrowserRouter as Router, Switch, Route,} from 'react-router-dom';
 import PaginaPrincipal from './Pages/PaginaPpal';
 import Registrar from './Pages/registrar';
-import Modificar from './Pages/modificar';
 import Consultar from './Pages/consultar';
 
 
@@ -13,9 +12,7 @@ function App() {
          <Route path="/registrar" exact>
              <Registrar/>
           </Route>
-          <Route path="/modificar" exact>
-             <Modificar/>
-          </Route>
+          
           <Route path="/consultar" exact>
              <Consultar/>
           </Route>
