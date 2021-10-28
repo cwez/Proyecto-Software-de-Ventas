@@ -7,6 +7,7 @@ import ss from "../img/logo.png"
 import logouser from "../img/man-user.png"
 import logosales from "../img/discount.png"
 import logologout from "../img/logout.png"
+import userEvent from "@testing-library/user-event";
 
 function Ventas (){
   let [loggedUser, setLoggerUser] = useState(
@@ -50,9 +51,8 @@ function Ventas (){
                 <a>Foto</a>
               </li>
               <li>
-                <a>
-                  Byron David
-                  {/* <Usuario></Usuario> */}
+              <a id="nombreUsusario">
+                  {loggedUser.nombres} {loggedUser.apellidos}
                 </a>
               </li>
             </ul>

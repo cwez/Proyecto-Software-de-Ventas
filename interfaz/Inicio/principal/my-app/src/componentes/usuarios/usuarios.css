@@ -30,3 +30,7 @@ table {
     margin-left: 1mm;
 
 }
+#nombreUsusario{
+   display: inline;
+   font: 150% sans-serif;
+}

@@ -46,10 +46,9 @@ function Home (){
               <a>Foto</a>
             </li>
             <li>
-              <a>
-                Byron David
-                {/* <Usuario></Usuario> */}
-              </a>
+            <a id="nombreUsusario">
+                  {loggedUser.nombres} {loggedUser.apellidos}
+                </a>
             </li>
           </ul>
         </div>

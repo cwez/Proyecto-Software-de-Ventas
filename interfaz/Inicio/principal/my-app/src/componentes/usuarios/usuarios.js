@@ -77,10 +77,8 @@ function ListarUsuarios() {
                 <a>Foto</a>
               </li>
               <li>
-                <a>
-                  <h1>{loggedUser.nombres} </h1>
-                  <h1>{loggedUser.apellidos} </h1>
-                  {/* <Usuario></Usuario> */}
+                <a id="nombreUsusario">
+                  {loggedUser.nombres} {loggedUser.apellidos}
                 </a>
               </li>
             </ul>
@@ -180,7 +178,7 @@ function ListarUsuarios() {
                         value={usuario.rol}
                       >
                         <option value="Administrador">Administrador</option>
-                        <option value="Ventas">Ventas</option>
+                        <option value="Vendedor">Vendedor</option>
                         <option value="Pendiente">Pendiente</option>
                       </select>
                     </td>
