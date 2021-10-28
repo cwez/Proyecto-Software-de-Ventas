@@ -90,7 +90,7 @@ app.post('/actualizarUsuario', async (req, res) => {
 
             res.send({
                 success: true,
-                message: 'El usuario fue actualizado',
+                message: 'El usuario ha sido actualizado',
                 usuario: usuario
             });
         });
