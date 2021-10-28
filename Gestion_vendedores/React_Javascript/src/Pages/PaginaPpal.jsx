@@ -17,7 +17,7 @@ function PaginaPrincipal(){
                     <Link to='/registrar'><Botones className='boton_1' texto="Registrar Información Nuevo Vendedor" /></Link> 
                 </div>
                 <div id="boton3">
-                <Link to='/consultar'><Botones className='boton_3' texto="Consultar información vendedores"/></Link>
+                <Link to='/consultar'><Botones className='boton_3' texto="Consultar/Modificar información vendedores"/></Link>
                 </div>
             </div>
         </div>

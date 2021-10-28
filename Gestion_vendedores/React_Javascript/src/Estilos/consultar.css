@@ -1,7 +1,41 @@
-h1 {
-    font-size:35px; 
+#Titulo{
+    font-size:50px; 
     color: rgb(0, 0, 71); 
     text-align: center; 
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: 3px 3px 4px rgb(87, 83, 83);
     }
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Tahoma';
+    color: rgb(12, 16, 19)
+}
+
+th{
+    padding: 12px;
+}
+
+#tablita{
+    text-align: center;
+    margin: auto;
+}
+
+table{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: 'Verdana';
+}
+
+.tablaVendedores{
+    text-align: center;
+}
+
+.boton{
+    text-align: center;
+    margin-top: 30px;
+}
